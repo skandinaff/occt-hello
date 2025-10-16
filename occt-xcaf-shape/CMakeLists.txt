@@ -38,7 +38,7 @@ include_directories(${OpenCASCADE_INCLUDE_DIR})
 
 # define dependencies
 set (anOcctLibs
-  TKXDESTEP TKSTEP TKSTEPAttr TKSTEP209 TKSTEPBase TKXSBase
+  TKDESTEP TKExpress TKXSBase
   TKRWMesh TKBinXCAF TKBin TKBinL TKXCAF TKVCAF TKCAF TKLCAF
   TKOpenGl TKV3d TKService TKPrim TKTopAlgo TKGeomAlgo TKBRep TKGeomBase TKG3d TKG2d TKMath TKernel)
 target_link_libraries (${PROJECT_NAME} PRIVATE ${anOcctLibs})

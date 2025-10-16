@@ -303,7 +303,7 @@ private:
         TopLoc_Location aLoc;
         XCAFPrs_IndexedDataMapOfShapeStyle aStyles;
         XCAFPrs::CollectStyleSettings (anXCafPrs->GetLabel(), aLoc, aStyles);
-        NCollection_Map<Quantity_ColorRGBA, Quantity_ColorRGBAHasher> aColorFilter;
+        NCollection_Map<Quantity_ColorRGBA> aColorFilter;
         std::cout << "     Colors:";
         for (XCAFPrs_IndexedDataMapOfShapeStyle::Iterator aStyleIter (aStyles); aStyleIter.More(); aStyleIter.Next())
         {
