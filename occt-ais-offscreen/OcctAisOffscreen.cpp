@@ -10,6 +10,7 @@
 #include <Image_AlienPixMap.hxx>
 #include <OpenGl_GraphicDriver.hxx>
 #include <OSD.hxx>
+#include <Standard_ErrorHandler.hxx>
 #include <PrsDim_DiameterDimension.hxx>
 #include <PrsDim_LengthDimension.hxx>
 #include <TopExp.hxx>

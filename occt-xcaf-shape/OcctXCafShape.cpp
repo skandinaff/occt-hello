@@ -8,6 +8,7 @@
 #include <OpenGl_GraphicDriver.hxx>
 #include <OSD.hxx>
 #include <OSD_Environment.hxx>
+#include <Standard_ErrorHandler.hxx>
 #include <V3d_View.hxx>
 #include <V3d_Viewer.hxx>
 

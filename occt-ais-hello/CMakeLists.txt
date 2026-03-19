@@ -7,7 +7,7 @@ set (CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/../adm/cmake" ${CMAKE_MODULE
 set (APP_VERSION_MAJOR 1)
 set (APP_VERSION_MINOR 0)
 set (APP_TARGET occt-ais-hello)
-set (CMAKE_CXX_STANDARD 11)
+set (CMAKE_CXX_STANDARD 17)
 
 find_package (OpenGL      REQUIRED)
 find_package (OpenCASCADE REQUIRED)
